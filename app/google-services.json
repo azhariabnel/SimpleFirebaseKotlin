@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "792056150354",
+    "firebase_url": "https://fir-kotlin-e6069.firebaseio.com",
+    "project_id": "fir-kotlin-e6069",
+    "storage_bucket": "fir-kotlin-e6069.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792056150354:android:ee0b0ba4a521525216628b",
+        "android_client_info": {
+          "package_name": "com.ari.firebaseloginapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792056150354-99ts3l3duringoi75o8rp608r2romqnn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJij8zG2kbn0Y9F1JxHTpCMVfpm1g2QOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792056150354-99ts3l3duringoi75o8rp608r2romqnn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

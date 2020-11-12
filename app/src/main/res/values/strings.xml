@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">FirebaseLoginApp</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="konfirmasi_kata_sandi">Konfirmasi Kata Sandi</string>
+    <string name="sudah_punya_akun">Sudah punya akun?</string>
+    <string name="login_di_sini">Login di sini</string>
+    <string name="daftar">Daftar</string>
+    <string name="email_user">Email User</string>
+    <string name="tidak_boleh_kosong">Tidak Boleh Kosong</string>
+    <string name="error_name_validation">Nama lengkap hanya bisa menggunakan huruf dan spasi</string>
+    <string name="error_name_validation2">Minimal 3 huruf</string>
+    <string name="error_name_validation3">Maksimal 50 huruf</string>
+    <string name="tidak_boleh_kosong_email">Email Tidak Boleh Kosong</string>
+    <string name="password_tidak_boleh_kosong">Password tidak boleh kosong</string>
+    <string name="minimum_password">Password minimal 8 karakter</string>
+    <string name="masukan_kembali_password">Sama dengan field password</string>
+    <string name="belum_punya_akun">Belum punya akun</string>
+    <string name="daftar_disini">Daftar Disini</string>
+    <string name="login">Login</string>
+    <string name="title_activity_forgot_password">ForgotPasswordActivity</string>
+    <string name="lupa_kata_sandi">Lupa Kata Sandi</string>
+    <string name="forgot_password_caption">Masukkan Email Anda yang terdaftar di bawah ini. Kami akan mengirimkan link untuk mereset kata sandi Anda.</string>
+    <string name="kirim">Kirim</string>
+</resources>
