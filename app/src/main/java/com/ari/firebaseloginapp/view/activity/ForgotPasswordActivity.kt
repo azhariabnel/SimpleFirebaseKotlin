@@ -1,4 +1,4 @@
-package com.ari.firebaseloginapp.view
+package com.ari.firebaseloginapp.view.activity
 
 import android.os.Bundle
 import android.text.TextUtils

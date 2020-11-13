@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">FirebaseLoginApp</string>
-    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_login">FirebaseLoginApp</string>
     <!--
     This string is used for square devices and overridden by hello_world in
     values-round/strings.xml for round devices.
@@ -29,4 +29,5 @@
     <string name="lupa_kata_sandi">Lupa Kata Sandi</string>
     <string name="forgot_password_caption">Masukkan Email Anda yang terdaftar di bawah ini. Kami akan mengirimkan link untuk mereset kata sandi Anda.</string>
     <string name="kirim">Kirim</string>
+    <string name="logout">Logout</string>
 </resources>

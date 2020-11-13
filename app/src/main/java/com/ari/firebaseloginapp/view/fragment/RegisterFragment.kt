@@ -1,4 +1,4 @@
-package com.ari.firebaseloginapp.view
+package com.ari.firebaseloginapp.view.fragment
 
 import android.os.Bundle
 import android.text.Editable
@@ -178,7 +178,7 @@ class RegisterFragment : DialogFragment() {
         val uid = FirebaseAuth.getInstance().uid!!
         val ref = FirebaseDatabase.getInstance().getReference("users")
 
-        val user = User(uid, registerName.toString(), registerEmail.toString())
+        val user = User(uid, registerName.toString(), registerEmail.toString(),"Belum Diverifikasi")
 
         ref.push().key
         ref.child(uid).setValue(user).addOnSuccessListener {

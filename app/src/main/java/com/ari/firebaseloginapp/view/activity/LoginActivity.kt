@@ -1,4 +1,4 @@
-package com.ari.firebaseloginapp.view
+package com.ari.firebaseloginapp.view.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -10,13 +10,10 @@ import androidx.appcompat.app.AppCompatActivity
 import com.ari.firebaseloginapp.R
 import com.ari.firebaseloginapp.utils.GeneralSnackbar
 import com.ari.firebaseloginapp.utils.gone
-import com.ari.firebaseloginapp.utils.invisible
 import com.ari.firebaseloginapp.utils.visible
+import com.ari.firebaseloginapp.view.fragment.RegisterFragment
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_login.*
-import kotlinx.android.synthetic.main.fragment_register.*
-import org.jetbrains.anko.ctx
-import org.jetbrains.anko.support.v4.ctx
 
 class LoginActivity : AppCompatActivity() {
 
@@ -142,7 +139,8 @@ class LoginActivity : AppCompatActivity() {
                     if (!it.isSuccessful) { return@addOnCompleteListener
 
                     } else {
-                        val intent = Intent(this,MainActivity::class.java)
+                        val intent = Intent(this, MainActivity::class.java)
+                        intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK.or(Intent.FLAG_ACTIVITY_NEW_TASK)
                         startActivity(intent)
                     }
                 }
